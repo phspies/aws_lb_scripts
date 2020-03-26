@@ -1,0 +1,75 @@
+Name,EnvironmentClass,Tier,FinanceAllocation ,Dept,Application,Location,SharedSchools,DataCriticality
+Example-APP01-LAUR-01,Production,External Web,USA30,830000,App01,__shared,"UoL,UoR",Internal
+Example-APP01-UKL1-01,Production,External Web,USA30,830000,App02,UoL,,Internal
+Example-APP01-UKR1-01,Production,External Web,USA30,830000,App03,UoR,,Internal
+Example-APP01-LAUR-02,Production,External Web,USA30,830000,App04,__shared,"UoL,UoR",Internal
+Example-APP02-LAUR-01,Production,External Web,USA30,830000,App05,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-UND1-01,Production,External Web,USA30,830000,App06,LDU,,Internal
+Example-APP02-USN1-01,Production,External Web,USA30,830000,App07,NSAD,,Internal
+Example-APP02-USM1-01,Production,External Web,USA30,830000,App08,UM,,Internal
+Example-APP02-LAUR-02,Production,External Web,USA30,830000,App09,__shared,"LDU,NSAD,UM",Internal
+Example-APP03-LAUR-01,Production,External Web,USA30,830000,App10,Walden,,Internal
+Example-APP03-USW1-01,Production,External Web,USA30,830000,App11,Walden,,Internal
+Example-APP03-LAUR-02,Production,External Web,USA30,830000,App12,Walden,,Internal
+Example-APP03-LAUR-03,Production,External Web,USA30,830000,App13,Walden,,Internal
+Example-APP04-LAUR-01,Production,External Web,USA04,830000,App14,LNO,,Internal
+Example-APP04-LPS1-01,Production,External Web,USA04,830000,App15,LNO,,Internal
+Example-APP04-LPS1-02,Production,External Web,USA04,830000,App16,LNO,,Internal
+Example-APP04-LAUR-02,Production,External Web,USA04,830000,App17,LNO,,Internal
+Example-APPGBN-LAUR-01,Production,Management,USA30,830000,App18,__shared,"UoL,UoR,LDU,NSAD,UM,LNO,Walden",Internal
+Example-APP01-LAUR-01,Dev,External Web,USA30,830000,App19,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-02,Dev,External Web,USA30,830000,App20,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-03,Dev,External Web,USA30,830000,App21,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-04,Dev,External Web,USA30,830000,App22,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-05,Dev,External Web,USA30,830000,App23,__shared,"UoL,UoR",Internal
+Example-APP02-LAUR-01,Dev,External Web,USA30,830000,App24,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-02,Dev,External Web,USA30,830000,App25,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-03,Dev,External Web,USA30,830000,App26,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-04,Dev,External Web,USA30,830000,App27,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-05,Dev,External Web,USA30,830000,App28,__shared,"LDU,NSAD,UM",Internal
+Example-APP03-LAUR-01,Dev,External Web,USA30,830000,App29,Walden,,Internal
+Example-APP03-LAUR-02,Dev,External Web,USA30,830000,App30,Walden,,Internal
+Example-APP03-LAUR-03,Dev,External Web,USA30,830000,App31,Walden,,Internal
+Example-APP03-LAUR-04,Dev,External Web,USA30,830000,App32,Walden,,Internal
+Example-APP03-LAUR-05,Dev,External Web,USA30,830000,App33,Walden,,Internal
+Example-APP04-LAUR-01,Dev,External Web,USA04,830000,App34,LNO,,Internal
+Example-APP04-LAUR-02,Dev,External Web,USA04,830000,App35,LNO,,Internal
+Example-APP04-LAUR-03,Dev,External Web,USA04,830000,App36,LNO,,Internal
+Example-APP04-LAUR-04,Dev,External Web,USA04,830000,App37,LNO,,Internal
+Example-APP04-LAUR-05,Dev,External Web,USA04,830000,App38,LNO,,Internal
+Example-APP01-LAUR-01,QA,External Web,USA30,830000,App39,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-02,QA,External Web,USA30,830000,App40,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-03,QA,External Web,USA30,830000,App41,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-04,QA,External Web,USA30,830000,App42,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-05,QA,External Web,USA30,830000,App43,__shared,"UoL,UoR",Internal
+Example-APP02-LAUR-01,QA,External Web,USA30,830000,App44,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-02,QA,External Web,USA30,830000,App45,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-03,QA,External Web,USA30,830000,App46,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-04,QA,External Web,USA30,830000,App47,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-05,QA,External Web,USA30,830000,App48,__shared,"LDU,NSAD,UM",Internal
+Example-APP03-LAUR-01,QA,External Web,USA30,830000,App49,Walden,,Internal
+Example-APP03-LAUR-02,QA,External Web,USA30,830000,App50,Walden,,Internal
+Example-APP03-LAUR-03,QA,External Web,USA30,830000,App51,Walden,,Internal
+Example-APP03-LAUR-04,QA,External Web,USA30,830000,App52,Walden,,Internal
+Example-APP03-LAUR-05,QA,External Web,USA30,830000,App53,Walden,,Internal
+Example-APP04-LAUR-01,QA,External Web,USA04,830000,App54,LNO,,Internal
+Example-APP04-LAUR-02,QA,External Web,USA04,830000,App55,LNO,,Internal
+Example-APP04-LAUR-03,QA,External Web,USA04,830000,App56,LNO,,Internal
+Example-APP04-LAUR-04,QA,External Web,USA04,830000,App57,LNO,,Internal
+Example-APP04-LAUR-05,QA,External Web,USA04,830000,App58,LNO,,Internal
+Example-APPGBN-LAUR-01,QA,Management,USA30,830000,App59,__shared,"UoL,UoR,LDU,NSAD,UM,LNO,Walden",Internal
+Example-APP01-LAUR-01,Stage/Pre-Prod ,External Web,USA30,830000,App60,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-02,Stage/Pre-Prod ,External Web,USA30,830000,App61,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-03,Stage/Pre-Prod ,External Web,USA30,830000,App62,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-04,Stage/Pre-Prod ,External Web,USA30,830000,App63,__shared,"UoL,UoR",Internal
+Example-APP01-LAUR-05,Stage/Pre-Prod ,External Web,USA30,830000,App64,__shared,"UoL,UoR",Internal
+Example-APP02-LAUR-01,Stage/Pre-Prod ,External Web,USA30,830000,App65,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-02,Stage/Pre-Prod ,External Web,USA30,830000,App66,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-03,Stage/Pre-Prod ,External Web,USA30,830000,App67,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-04,Stage/Pre-Prod ,External Web,USA30,830000,App68,__shared,"LDU,NSAD,UM",Internal
+Example-APP02-LAUR-05,Stage/Pre-Prod ,External Web,USA30,830000,App69,__shared,"LDU,NSAD,UM",Internal
+Example-APP03-LAUR-01,Stage/Pre-Prod ,External Web,USA30,830000,App70,Walden,,Internal
+Example-APP03-LAUR-02,Stage/Pre-Prod ,External Web,USA30,830000,App71,Walden,,Internal
+Example-APP03-LAUR-03,Stage/Pre-Prod ,External Web,USA30,830000,App72,Walden,,Internal
+Example-APP03-LAUR-04,Stage/Pre-Prod ,External Web,USA30,830000,App73,Walden,,Internal
+Example-APP03-LAUR-05,Stage/Pre-Prod ,External Web,USA30,830000,App74,Walden,,Internal

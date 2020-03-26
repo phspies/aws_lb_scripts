@@ -1,0 +1,76 @@
+Environment,Name,AWS Domain Name,ID,internet-facing Domain,,Port,Probe,Probe Mechanism,Path,internal/internet-facing,ACM Certificate ID
+PROD1,ALB-Example01-LAUR-01,,LAUR ,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD1,ALB-Example01-UKL1-01,,UKL1,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD1,ALB-Example01-UKR1-01,,UKR1,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD1,ALB-Example01-LAUR-02,,LAUR ,domain.com,ALB SSL Offloading,30003,/webapp/login/ck/bg.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD2,ALB-Example02-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD2,ALB-Example02-UND1-01,,UND1,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD2,ALB-Example02-USN1-01,,USN1,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD2,ALB-Example02-USM1-01,,USM1,domain.com,SSL Passthrough,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD2,ALB-Example02-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD3,ALB-Example03-LAUR-01,ALB-Example03-LAUR-01-143605734.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD3,ALB-Example03-USW1-01,ALB-Example03-USW1-01-1289007365.us-east-1.elb.amazonaws.com,USW1,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD3,ALB-Example03-LAUR-02,ALB-Example03-LAUR-02-1370191792.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD3,ALB-Example03-LAUR-03,ALB-Example03-LAUR-03-148738573.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30003,/webapp/login/ck/bg.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD4,ALB-Example04-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD4,ALB-Example04-LPS1-01,,LPS1,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD4,ALB-Example04-LPS1-02,,LPS1,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+PROD4,ALB-Example04-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30003,/webapp/login/ck/bg.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+GBN_PROD,ALB-ExampleGBN-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapp/login/ck/bg.jsp,420,/,internal,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV1,ALB-Example01-LAUR-01,ALB-Example01-LAUR-01-1860800312.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV1,ALB-Example01-LAUR-02,ALB-Example01-LAUR-02-152835620.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV1,ALB-Example01-LAUR-03,ALB-Example01-LAUR-03-947886569.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV1,ALB-Example01-LAUR-04,ALB-Example01-LAUR-04-1478184783.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV1,ALB-Example01-LAUR-05,ALB-Example01-LAUR-05-451387745.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV2,ALB-Example02-LAUR-01,ALB-Example02-LAUR-01-2031879097.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV2,ALB-Example02-LAUR-02,ALB-Example02-LAUR-02-1164095362.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV2,ALB-Example02-LAUR-03,ALB-Example02-LAUR-03-1479846306.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV2,ALB-Example02-LAUR-04,ALB-Example02-LAUR-04-1894400271.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV2,ALB-Example02-LAUR-05,ALB-Example02-LAUR-05-1604612329.us-east-1.elb.amazonaws.com,LAUR,domain.com,SSL Passthrough,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV3,ALB-Example03-LAUR-01,ALB-Example03-LAUR-01-1797786454.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV3,ALB-Example03-LAUR-02,ALB-Example03-LAUR-02-263598770.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV3,ALB-Example03-LAUR-03,ALB-Example03-LAUR-03-602836378.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV3,ALB-Example03-LAUR-04,ALB-Example03-LAUR-04-1753247742.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV3,ALB-Example03-LAUR-05,ALB-Example03-LAUR-05-127589316.us-east-1.elb.amazonaws.com,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV4,ALB-Example04-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV4,ALB-Example04-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV4,ALB-Example04-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV4,ALB-Example04-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+DEV4,ALB-Example04-LAUR-05,,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA1,ALB-Example01-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA1,ALB-Example01-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA1,ALB-Example01-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA1,ALB-Example01-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA1,ALB-Example01-LAUR-05,,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA2,ALB-Example02-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA2,ALB-Example02-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA2,ALB-Example02-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA2,ALB-Example02-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA2,ALB-Example02-LAUR-05,,LAUR,domain.com,SSL Passthrough,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA3,ALB-Example03-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA3,ALB-Example03-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA3,ALB-Example03-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA3,ALB-Example03-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA3,ALB-Example03-LAUR-05,,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA4,ALB-Example04-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA4,ALB-Example04-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA4,ALB-Example04-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA4,ALB-Example04-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+QA4,ALB-Example04-LAUR-05,,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+GBN_NPROD,ALB-ExampleGBN-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapp/login/ck/bg.jsp,420,/,internal,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE1,ALB-Example01-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE1,ALB-Example01-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE1,ALB-Example01-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE1,ALB-Example01-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE1,ALB-Example01-LAUR-05,,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE2,ALB-Example02-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE2,ALB-Example02-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE2,ALB-Example02-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE2,ALB-Example02-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE2,ALB-Example02-LAUR-05,,LAUR,domain.com,SSL Passthrough,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE3,ALB-Example03-LAUR-01,,LAUR,domain.com,ALB SSL Offloading,30000,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE3,ALB-Example03-LAUR-02,,LAUR,domain.com,ALB SSL Offloading,30001,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE3,ALB-Example03-LAUR-03,,LAUR,domain.com,ALB SSL Offloading,30002,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE3,ALB-Example03-LAUR-04,,LAUR,domain.com,ALB SSL Offloading,30003,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+STAGE3,ALB-Example03-LAUR-05,,LAUR,domain.com,ALB SSL Offloading,30004,/webapps/login/ck/lb.jsp,420,/,internet-facing,98b0fb00-991b-dfghh-a978-dhdfghdfghdfhg
+OUTAGE,ALB-ExampleOUT-LAUR-01,,LAUR,domain.com,none,30000,/,200,/,internet-facing,
