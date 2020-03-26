@@ -31,12 +31,12 @@ var _sslPolicy *string
 func main() {
 
 	//define vars for script
-	_vpc = "vpc-0623358df83f2894c"
-	_subnets = []*string{aws.String("subnet-0b510221c2ce50eb0"), aws.String("subnet-0cdd0afe073fcb336")}
-	_securityGroups = []*string{aws.String("sg-0516a6ee871085530")}
+	_vpc = "vpc-<vpcid>"
+	_subnets = []*string{aws.String("subnet-<subnetid>"), aws.String("subnet-<subnetid>")}
+	_securityGroups = []*string{aws.String("sg-<sgid>")}
 	_region = aws.String("us-east-1")
-	_assumeRole = "arn:aws:iam::010153562026:role/SDDCVMWAREBBTEAM"
-	_mfaSerial = aws.String("arn:aws:iam::234054849722:mfa/phillip.spies@laureate.net")
+	_assumeRole = "arn:aws:iam::<roleid>:role/<role>"
+	_mfaSerial = aws.String("arn:aws:iam::<mfaid>:mfa/<userid>")
 	_sslPolicy = aws.String("ELBSecurityPolicy-TLS-1-2-2017-01")
 	//-----------------
 
